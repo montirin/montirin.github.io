@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Titan One';
+  font-family: 'Metropolis';
   font-style: regular;
   font-weight: 400;
-  src: url('/fonts/Titan_One_regular.woff2') format('woff2');
+  src: url('/fonts/Metropolis-Black.otf') format('otf');
 }
 
 :root {
@@ -70,7 +70,7 @@ main {
 }
 
 .heading {
-  font-family: 'Titan One', sans-serif;
+  font-family: 'Metropolis', sans-serif;
   color: var(--accent);
   margin-bottom: 16px;
 }
