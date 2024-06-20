@@ -2,32 +2,19 @@
 import '../styles/main.css'
 
 const heading = "Montirin";
-const subheading = "Manajemen Bengkel, Bengkelmu dalam genggaman.";
-const appIcon = "/images/app-icon.svg";
-const appScreenshot = "/images/app-screenshot.png";
-const footerImage = "/images/banners.svg";
+const subheading = "Manajemen Bengkel, Bengkelmu Dalam Genggaman.";
+const appIcon = "montirin.github.io/images/app-icon.svg";
+const appScreenshot = "montirin.github.io/images/app-screenshot.png";
+const footerImage = "montirin.github.io/images/banners.svg";
 const badges = [
 	{
 		link: "https://apps.apple.com/us/app/party-banner/id1610931185",
-		image: "/images/app-store-badge.svg"
-	},
-	{
-		link: "https://apps.apple.com/us/app/party-banner/id1610931185",
-		image: "/images/google-play-badge.png"
+		image: "montirin.github.io/images/google-play-badge.png"
 	},
 ];
-const authors = [
-	{
-		name: "Will Walker",
-		url: "https://willswire.com"
-	},
-	{
-		name: "Caden Kulp",
-		url: "https://cadens.studio"
-	},
-];
-const pageTitle = "App Showcase"
-const favicon = "/images/favicon.svg"
+
+const pageTitle = "Montirin"
+const favicon = "montirin.github.io/images/favicon.svg"
 ---
 
 <html lang="en">
@@ -54,14 +41,6 @@ const favicon = "/images/favicon.svg"
 							</div>
 						))}
 					</div>
-					<p class="authors">Made with &#x2665; by 
-						{authors.map((author, index) => (
-								<span>
-									{index > 0 ? (index === authors.length - 1 ? ' and ' : ', ') : ''}
-									<a href={author.url} target="_blank">{author.name}</a>
-								</span>
-						))}
-					</p>
 				</div>
 				<div>
 					<img src={appScreenshot} class="app-screenshot">
